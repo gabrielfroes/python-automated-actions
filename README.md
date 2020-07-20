@@ -36,7 +36,7 @@ Install PyInstaller, to generate .exe file (for Windows).
 pip install pyinstaller
 ```
 
-Run a Live Server or any http service or port 5500. This optional, you can also customize the *actions-sample.json* and *config.ini* with your own URLs.
+Run a Live Server or any http service or port 5500. This is optional, you can also customize the *actions-sample.json* and *config.ini* with your own URLs.
 
 ## Running the tests
 
