@@ -1,0 +1,127 @@
+[{
+        "type": "Mão no Código",
+        "actions": {
+            "folders": [
+                "video",
+                "audio",
+                "imagens/fotos"
+            ],
+            "files": [{
+                    "from": "http://127.0.0.1:5500/samples/cdftv-mao-no-codigo.prproj",
+                    "to": ""
+                },
+                {
+                    "from": "http://127.0.0.1:5500/samples/miniatura.psd",
+                    "to": "imagens"
+                },
+                {
+                    "from": "http://127.0.0.1:5500/samples/texto-animado.psd",
+                    "to": "imagens"
+                }
+
+            ]
+        }
+    },
+    {
+        "type": "Vlog",
+        "actions": {
+            "folders": [
+                "video",
+                "audio",
+                "imagens/fotos"
+            ],
+            "files": [{
+                    "from": "http://127.0.0.1:5500/samples/cdftv-vlog.prproj",
+                    "to": ""
+                },
+                {
+                    "from": "http://127.0.0.1:5500/samples/miniatura.psd",
+                    "to": "imagens"
+                }
+            ]
+        }
+    },
+    {
+        "type": "CAC",
+        "actions": {
+            "folders": [
+                "video",
+                "audio",
+                "imagens/fotos"
+            ],
+            "files": [{
+                    "from": "http://127.0.0.1:5500/samples/cdftv-cac.prproj",
+                    "to": ""
+                },
+                {
+                    "from": "http://127.0.0.1:5500/samples/miniatura.psd",
+                    "to": "imagens"
+                }
+            ]
+        }
+    },
+    {
+        "type": "Dicionário do Programador",
+        "actions": {
+            "folders": [
+                "video",
+                "audio",
+                "imagens/fotos"
+            ],
+            "files": [{
+                    "from": "http://127.0.0.1:5500/samples/cdftv-dicionario-do-programador.prproj",
+                    "to": ""
+                },
+                {
+                    "from": "http://127.0.0.1:5500/samples/miniatura.psd",
+                    "to": "imagens"
+                }
+            ]
+        }
+    },
+    {
+        "type": "Decode CDF 2030",
+        "actions": {
+            "folders": [
+                "video",
+                "audio",
+                "imagens/fotos"
+            ],
+            "files": [{
+                    "from": "http://127.0.0.1:5500/samples/cdftv-decode-cdf-2030.prproj",
+                    "to": ""
+                },
+                {
+                    "from": "http://127.0.0.1:5500/samples/miniatura.psd",
+                    "to": "imagens"
+                }
+            ]
+        }
+    },
+    {
+        "type": "DevMinute (Instagram)",
+        "actions": {
+            "folders": [
+                "video",
+                "audio"
+            ],
+            "files": [{
+                "from": "http://127.0.0.1:5500/samples/cdftv-instagram-devminute.prproj",
+                "to": ""
+            }]
+        }
+    },
+    {
+        "type": "Stories (Instagram)",
+        "actions": {
+            "folders": [
+                "video",
+                "audio"
+            ],
+            "files": [{
+                "from": "http://127.0.0.1:5500/samples/cdftv-instagram-stories.prproj",
+                "to": ""
+            }]
+        }
+    }
+]
