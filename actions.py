@@ -4,7 +4,9 @@ import json
 import urllib.request
 from pathvalidate import sanitize_filename
 import configparser
+import ssl
 
+ssl._create_default_https_context = ssl._create_unverified_context
 
 class Actions:
 
@@ -38,7 +40,6 @@ class Actions:
 
     def __downloadFilesFromList(self, files, baseFolder=''):
         baseFolder = sanitize_filename(baseFolder)
-
         for file in files:
             link = file["from"]
             destination = file["to"]
